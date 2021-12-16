@@ -1,0 +1,92 @@
+.App{
+    background-color: red;
+}
+
+/* table, th, td,tr{
+    border: 1px solid rgb(248, 242, 242);
+    margin-top: 5%;
+  } */
+  
+body::after {
+    content: "";
+    background: url('https://images.unsplash.com/photo-1612066311279-613fa84f5730?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80');
+    background-color: rgb(39, 41, 43);
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+     width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  background-position: 50% 0;
+    z-index: -1;   
+  }
+
+  .navbar{
+    margin: 0 0 1em 0;
+	float: left;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  object-fit: fill;
+  top: 0;
+  z-index: 50;
+  /* background-color: blue; */
+  width: 100%;
+}
+
+
+ul {
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+  margin-bottom: auto;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+  .navbar_logo{
+    color: springgreen;
+    height: 25px;
+    object-fit: contain;
+    position: relative;
+    left: 10px;
+    top: -5px;
+  }
+ .userfields{
+     margin-top: 30px;
+ } 
+  .batteryimg{
+
+        height: 15px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+    

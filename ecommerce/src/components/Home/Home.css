@@ -1,0 +1,10 @@
+.home{
+    border: solid rgb(53, 150, 150);
+    margin-top: 1%;
+  }
+
+
+  .productimages{
+    justify-content: space-between;
+    width: 100%;
+  }
